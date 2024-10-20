@@ -1,0 +1,11 @@
+[versions]
+junit = "4.13.2"
+kotlin-stdlib = "1.9.21"
+kotlin-test-junit = "1.9.21"
+kotlinx-datetime-jvm = "0.6.1"
+
+[libraries]
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin-stdlib" }
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin-test-junit" }
+kotlinx-datetime-jvm = { module = "org.jetbrains.kotlinx:kotlinx-datetime-jvm", version.ref = "kotlinx-datetime-jvm" }
